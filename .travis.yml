@@ -3,9 +3,9 @@ language: cpp
 matrix:
   include:
     - os: linux
-      dist: trusty
+      dist: xenial
       compiler:
-        - clang
+        - clang++
         - gcc
     - os: osx
       osx_image: xcode10.1
