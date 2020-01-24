@@ -3,7 +3,17 @@ language: cpp
 matrix:
   include:
     - os: linux
+      dist: trusty
+      compiler:
+        - clang
+        - gcc
+    - os: linux
       dist: xenial
+      compiler:
+        - clang++
+        - gcc
+    - os: linux
+      dist: bionic
       compiler:
         - clang++
         - gcc
